@@ -22,6 +22,7 @@ class BlogPostTemplate extends React.Component {
           <header>
             <h1
               style={{
+                fontFamily: `Montserrat, sans-serif`,
                 marginTop: rhythm(1),
                 marginBottom: 0,
               }}
@@ -31,6 +32,7 @@ class BlogPostTemplate extends React.Component {
             <p
               style={{
                 ...scale(-1 / 5),
+                fontFamily: `Montserrat, sans-serif`,
                 display: `block`,
                 marginBottom: rhythm(1),
               }}
@@ -52,6 +54,7 @@ class BlogPostTemplate extends React.Component {
         <nav>
           <ul
             style={{
+              fontFamily: `Montserrat, sans-serif`,
               display: `flex`,
               flexWrap: `wrap`,
               justifyContent: `space-between`,

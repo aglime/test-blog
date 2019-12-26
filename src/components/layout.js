@@ -11,9 +11,10 @@ class Layout extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
-        <h1
+        <p
           style={{
-            ...scale(1.5),
+            ...scale(.5),
+            fontFamily: `Montserrat, sans-serif`,
             marginBottom: rhythm(1.5),
             marginTop: 0,
           }}
@@ -21,6 +22,7 @@ class Layout extends React.Component {
           <Link
             style={{
               boxShadow: `none`,
+              fontFamily: `Montserrat, sans-serif`,
               textDecoration: `none`,
               color: `inherit`,
             }}
@@ -28,11 +30,11 @@ class Layout extends React.Component {
           >
             {title}
           </Link>
-        </h1>
+        </p>
       )
     } else {
       header = (
-        <h3
+        <p
           style={{
             fontFamily: `Montserrat, sans-serif`,
             marginTop: 0,
@@ -40,6 +42,7 @@ class Layout extends React.Component {
         >
           <Link
             style={{
+              fontFamily: `Montserrat, sans-serif`,
               boxShadow: `none`,
               textDecoration: `none`,
               color: `inherit`,
@@ -48,12 +51,13 @@ class Layout extends React.Component {
           >
             {title}
           </Link>
-        </h3>
+        </p>
       )
     }
     return (
       <div
         style={{
+          fontFamily: `Montserrat, sans-serif`,
           marginLeft: `auto`,
           marginRight: `auto`,
           maxWidth: rhythm(24),

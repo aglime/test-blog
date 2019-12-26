@@ -30,17 +30,11 @@ const Bio = () => {
   return (
     <div
       style={{
+        fontFamily: `Montserrat, sans-serif`,
         display: `flex`,
-        marginBottom: rhythm(2.5),
+        marginBottom: rhythm(.5),
       }}
     >
-
-      <p>
-        Written by <strong>{author}</strong> who lives and works in Ann Arbor, Michigan.
-        {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-        </a>
-      </p>
     </div>
   )
 }
