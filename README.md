@@ -1,3 +1,5 @@
+I am not a fan of this starter - might be easiest to start from scratch.
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
